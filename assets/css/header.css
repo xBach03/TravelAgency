@@ -237,6 +237,7 @@
 .booker__booker2-content {
     margin-left: 1rem;
     font-size: 4rem;
+    font-weight: 300;
     color: var(--white-color);
     line-height: 5rem;
 }

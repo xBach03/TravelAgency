@@ -1,0 +1,124 @@
+.container__page1-title {
+    margin-left: 20rem;
+    margin-top: 10rem;
+    
+}
+.container__page1-title-content {
+    display: inline-block;
+}
+.container__page1-title-h1 {
+
+    font-weight: 100;
+    font-size: 7rem;
+    font-family: "PT Serif", serif;
+    color: var(--text-color);
+    position: relative;
+}
+.container__page1-title-h1::after {
+    background-size: 100% ;
+    content: "  ";
+    position: absolute;
+    left: 0;
+    bottom: -5rem; 
+    width: 18rem; 
+    height: 0.3rem; 
+    background-color: var(--500);
+}
+.container__page1-title-content1 {
+    display: inline-block;
+    font-size: 3rem;
+    color: 	#A9A9A9;
+    font-weight: 100;
+}
+
+.container__page1-title-buttons {
+    margin-left: 25rem;
+    display: inline-block;
+}
+.container__page1-title-btnLeft, .container__page1-title-btnRight {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+.container__page1-title-btnLeft {
+    background-color: black;
+}
+
+.container__page1-title-btnRight {
+    margin-left: 1.5rem;
+    background-color: var(--500);
+}
+
+
+.container__page1-title-btnLeft::after, .container__page1-title-btnRight::after {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-top: 0.2rem solid white;
+    border-right: 0.2rem solid white;
+}
+
+.container__page1-title-btnLeft::after {
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.container__page1-title-btnRight::after {
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.image__scroll {
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+.img__div-container {
+    display: inline-block;
+    position: relative;
+}
+.image__scroll-img1, .image__scroll-img2, .image__scroll-img3, .image__scroll-img4 {
+    height: 45rem;
+    width: 38rem;
+    border-radius: 1.5rem;
+}
+
+.image__scroll-img2, .image__scroll-img3, .image__scroll-img4 {
+    margin-left: 3rem;
+}
+.image__scroll-textBox1 {
+    position: absolute;
+    bottom: 4.5rem;
+    left: 2.5rem;
+    
+}
+.image__scroll-textBox {
+    position: absolute;
+    bottom: 4.5rem;
+    left: 5.5rem;
+    
+}
+.image__scroll-destination {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.image__scroll-adress-icon {
+    margin-top: 1.1rem;
+}
+.image__scroll-mapMarker {
+    display: inline-block;
+    width: 1.5rem;
+    height: 2.5rem;
+}
+.image__scroll-address {
+    display: inline-block;
+    color: white;
+    margin-left: 1.1rem;
+    font-size: 2rem;
+    font-weight: 100;
+}
