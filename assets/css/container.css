@@ -20,14 +20,14 @@
     position: absolute;
     left: 0;
     bottom: -5rem; 
-    width: 18rem; 
+    width: 35rem; 
     height: 0.3rem; 
     background-color: var(--500);
 }
 .container__page1-title-content1 {
     display: inline-block;
     font-size: 3rem;
-    color: 	#A9A9A9;
+    color: 	var(--describer);
     font-weight: 100;
 }
 
@@ -107,7 +107,7 @@
     font-size: 2.5rem;
     font-weight: 100;
 }
-.image__scroll-adress-icon {
+.image__scroll-address-icon {
     margin-top: 1.1rem;
 }
 .image__scroll-mapMarker {
@@ -121,4 +121,169 @@
     margin-left: 1.1rem;
     font-size: 2rem;
     font-weight: 100;
+}
+
+
+.container__page2-title {
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+.container__page2-title-buttons {
+    display: inline-block;
+}
+.container__page2-title-btnLeft, .container__page2-title-btnRight {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+.container__page2-title-btnLeft {
+    background-color: black;
+}
+
+.container__page2-title-btnRight {
+    margin-left: 1.5rem;
+    background-color: var(--500);
+}
+.container__page2-title-btnLeft::after, .container__page2-title-btnRight::after {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-top: 0.2rem solid white;
+    border-right: 0.2rem solid white;
+}
+
+.container__page2-title-btnLeft::after {
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.container__page2-title-btnRight::after {
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.container__page2-title-content {
+    margin-left: 100rem;
+    display: inline-block;
+}
+.container__page2-title-h1 {
+    text-align: right;
+    font-weight: 100;
+    font-size: 7rem;
+    font-family: "PT Serif", serif;
+    color: var(--text-color);
+    position: relative;
+}
+.container__page2-title-h1::after {
+    background-size: 100% ;
+    content: "  ";
+    position: absolute;
+    right: 0;
+    bottom: -5rem; 
+    width: 25rem; 
+    height: 0.3rem; 
+    background-color: var(--500);
+}
+.container__page2-title-content1 {
+    text-align: right;
+    display: inline-block;
+    font-size: 3rem;
+    color: 	var(--describer);
+    font-weight: 100;
+}
+.container__page2-images {
+    
+    margin-left: 16rem;
+}
+.container__page2-image-scroll {
+    margin-top: 10rem;
+    list-style: none;
+}
+.container__page2-image-content {
+    position: relative;
+    display: inline-block;
+}
+.container__page2-image-image1 {
+    width: 45rem;
+    height: 50rem;
+    border-radius: 2rem;
+}
+.container__page2-image-content1 {
+    position: absolute;
+    background-color: var(--40);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 45rem;
+    height: 25rem;
+    bottom: 0rem;
+}
+
+
+
+
+.container__page2-image-image2, .container__page2-image-image3 {
+    width: 45rem;
+    height: 50rem;
+    border-radius: 2rem;
+    margin-left: 6rem;
+}
+.container__page2-image-content2, .container__page2-image-content3 {
+    margin-left: 6rem;
+    position: absolute;
+    background-color: var(--40);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    width: 45rem;
+    height: 25rem;
+    bottom: 0rem;
+}
+.container__page2-image-content1-container {
+    margin-left: 3.5rem;
+    margin-top: 2.5rem;
+}
+.container__page2-image-content1-location-addess {
+    font-size: 2rem;
+    color: var(--describer);
+}
+.container__page2-image-content1-location-rate {
+    font-size: 2.5rem;
+    color: var(--star);
+    margin-top: 1rem;
+}
+.container__page2-image-content1-describe {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    margin-right: 4rem;
+}
+.container__page2-image-content1-info {
+    align-items: center;
+    display: flex;
+    margin-top: 4rem;
+}
+.container__page2-image-content1-info-price {
+    display: flex;
+}
+.container__page2-image-content1-info-price-text {
+    display: inline-block;
+    color: var(--describer);
+    font-size: 1.5rem;
+}
+.container__page2-image-content1-info-price-number {
+    display: inline-block;
+    font-size: 3rem;
+    margin-left: 1rem;
+    color: var(--500);
+}
+.container__page2-image-content1-info-details {
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem; 
+    text-align: center;
+    margin-left: 15rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 1rem;
+    background-color: var(--500);
 }
