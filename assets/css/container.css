@@ -1,7 +1,6 @@
-.container__page1-title {
+.container__page1 {
     margin-left: 20rem;
-    margin-top: 10rem;
-    
+    margin-top: 10rem; 
 }
 .container__page1-title-content {
     display: inline-block;
@@ -75,7 +74,6 @@
 }
 .image__scroll {
     margin-top: 5rem;
-    margin-left: 20rem;
 }
 .img__div-container {
     display: inline-block;
@@ -124,7 +122,7 @@
 }
 
 
-.container__page2-title {
+.container__page2 {
     margin-left: 20rem;
     margin-top: 10rem;
 }
@@ -167,7 +165,7 @@
     transform: translate(-50%, -50%) rotate(45deg);
 }
 .container__page2-title-content {
-    margin-left: 100rem;
+    margin-left: 95rem;
     display: inline-block;
 }
 .container__page2-title-h1 {
@@ -195,10 +193,7 @@
     color: 	var(--describer);
     font-weight: 100;
 }
-.container__page2-images {
-    
-    margin-left: 16rem;
-}
+
 .container__page2-image-scroll {
     margin-top: 10rem;
     list-style: none;
@@ -286,4 +281,73 @@
     color: white;
     border-radius: 1rem;
     background-color: var(--500);
+}
+.container__page3 {
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+.container__page3-title-content {
+    display: inline-block;
+}
+.container__page3-title-h1 {
+    font-weight: 100;
+    font-size: 7rem;
+    font-family: "PT Serif", serif;
+    color: var(--text-color);
+    position: relative;
+}
+.container__page3-title-h1::after {
+    background-size: 100% ;
+    content: "  ";
+    position: absolute;
+    left: 0;
+    bottom: -5rem; 
+    width: 15rem; 
+    height: 0.3rem; 
+    background-color: var(--500);
+}
+.container__page3-title-content1 {
+    display: inline-block;
+    font-size: 3rem;
+    color: 	var(--describer);
+    font-weight: 100;
+}
+.container__page3-img-content {
+    margin-top: 5rem;
+    display: flex;
+}
+.container__page3-img {
+    width: 60rem;
+    height: 75rem;
+    border-radius: 2rem;
+}
+.container__page3-content {
+    margin-top: 10rem;
+    margin-left: 3rem;
+}
+.container__page3-content1 {
+    line-height: 5rem;
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: "PT Serif", serif;
+}
+.container__page3-content2 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    width: 70rem;
+    line-height: 4rem;
+}
+.container__page3-content3 {
+    margin-top: 3rem;
+}
+.container__page3-content3-text {
+    display: inline-block;
+    font-size: 2.5rem;
+    color: var(--500)
+}
+.container__page3-content3-arrow {
+    margin-left: 1rem;
+    font-size: 3rem;
+    display: inline-block;
+    color: var(--500);
 }
