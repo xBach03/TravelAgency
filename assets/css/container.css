@@ -351,3 +351,51 @@
     display: inline-block;
     color: var(--500);
 }
+.container__page4 {
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+.container__page4-title {
+    display: inline-block;
+}
+.container__page4-title-h1 {
+    padding-top: 20rem;
+    font-weight: 100;
+    font-size: 7rem;
+    font-family: "PT Serif", serif;
+    color: var(--text-color);
+    position: relative;
+    display: inline-block;
+}
+.container__page4-title-h1::after {
+    background-size: 100% ;
+    content: "  ";
+    position: absolute;
+    left: 0;
+    bottom: -5rem; 
+    width: 20rem; 
+    height: 0.3rem; 
+    background-color: var(--500);
+}
+.container__page4-title-content {
+    font-size: 3rem;
+    margin-top: 7rem;
+    line-height: 5rem;
+    width: 55rem;
+    color: grey;
+}
+.container__page4-images {
+    display: inline;
+}
+.container__page4-images-list {
+    display: inline;
+}
+.container__page4-images-list-item {
+    display: inline;
+}
+.container__page4-images-list-item-first, .container__page4-images-list-item-second, .container__page4-images-list-item-third, .container__page4-images-list-item-fourth {
+    border-radius: 2rem;
+    margin-left: 1.2rem;
+    width: 26rem;
+    height: 38rem;
+}
