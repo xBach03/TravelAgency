@@ -240,7 +240,7 @@
     margin-left: 3.5rem;
     margin-top: 2.5rem;
 }
-.container__page2-image-content1-location-addess {
+.container__page2-image-content1-location-address {
     font-size: 2rem;
     color: var(--describer);
 }
@@ -485,18 +485,82 @@
 .container__page5-content {
     margin-top: 5rem;
 }
-.container__page5-images-list {
 
-}
 .container__page5-images-item {
     display: inline;
 }
 .container__page5-images-item-first, .container__page5-images-item-second, .container__page5-images-item-third, .container__page5-images-item-fourth {
     height: 50rem;
-    width: 30rem;
+    width: 33rem;
     border-radius: 2rem;
     
 }
 .container__page5-images-item-second, .container__page5-images-item-third, .container__page5-images-item-fourth {
     margin-left: 3rem;
+}
+.container__page6 {
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+.container__page6-title-h1 {
+    padding-top: 20rem;
+    font-weight: 100;
+    font-size: 6rem;
+    font-family: "PT Serif", serif;
+    color: var(--text-color);
+    position: relative;
+}
+.container__page6-title-h1::after {
+    background-size: 100% ;
+    content: "  ";
+    position: absolute;
+    left: 0;
+    bottom: -4rem; 
+    width: 25rem; 
+    height: 0.3rem; 
+    background-color: var(--500);
+}
+.container__page6-title-content1 {
+    margin-top: 7rem;
+    font-size: 2rem;
+    color: grey;
+}
+.container__page6-content-review-list {
+    display: inline-block;
+}
+.container__page6-content-review-list-item {
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+.container__page6-content-review-list-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-left: 5rem;
+    position: absolute;
+}
+.container__page6-content-review-list-content {
+    margin-top: 7rem;
+    width: 60rem;
+    height: 28rem;
+    line-height: 2rem;
+    font-size: 2rem;
+    background: var(--feedback);
+    border-radius: 1rem;
+    padding: 5rem 4rem 4rem 5rem;
+    color: var(--block_text);
+}
+.container__page6-content-review-list-content-rate {
+    font-size: 3rem;
+    color: var(--star);
+    margin-top: 2rem;
+}
+.container__page-content-review-list-sign {
+    margin-top: 2rem;
+}
+.container__page-content-review-list-job {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
 }
