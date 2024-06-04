@@ -1,0 +1,124 @@
+.footer {
+    margin-top: 20rem;
+    position: relative;
+}
+.footer__newsletter {
+    margin-left: 45rem;
+    width: 100rem;
+    height: 16rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 1rem;
+    background: white;
+    position: absolute;
+    top: -8rem; 
+    z-index: 2;
+}
+.footer__newsletter-title {
+    font-size: 4.5rem;
+    color: var(--block_text);
+    font-family: Playfair Display;
+    text-align: left;
+    padding: 6rem 0 0 5rem;
+    display: inline-block;
+}
+.footer__newsletter-info {
+    margin-left: 10rem;
+    margin-top: 3rem;
+    display: inline-block;
+}
+.footer__newsletter-info-email {
+    display: inline-block;
+}
+.footer__newsletter-info-button {
+    margin-left: 3rem;
+    background: var(--500);
+    display: inline-block;
+    border-radius: 1rem;
+    padding: 2rem 2rem 1.8rem 2rem;
+    color: white;
+    font-size: 1.5rem;
+    width: 12rem;
+    text-align: center;
+}
+.footer__newsletter-info-email-title {
+    margin-bottom: 0.5rem;
+    color: var(--block_text);
+    font-size: 1.5rem;
+}
+.footer__newsletter-info-email-input {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    width: 30rem;
+    color: var(--500);
+    background: var(--60);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.footer__main {
+    height: 40rem;
+    background-color: var(--footer);
+    position: relative;
+    z-index: 1;
+}
+.footer__main-logo {
+    padding: 13rem 0 0 20rem;
+    display: inline-block;
+}
+.footer__main-logo-img {
+    width: 32rem;
+    height: 17rem;
+}
+.footer__main-list {
+    display: inline-block;
+    list-style: none;
+}
+.footer__main-list-menu {
+    margin-left: 15rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+}
+.footer__main-list-menu-list {
+    line-height: 2.5rem;
+    font-weight: normal;
+    display: inline;
+    list-style: none;
+    font-size: 1.2rem;
+}
+.footer__main-list-info {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-left: 10rem;
+    vertical-align: top;
+}
+.footer__main-list-info-list {
+    display: inline;
+    list-style: none;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+.footer__main-list-contact, .footer__main-list-follow {
+    vertical-align: top;
+    font-size: 2rem;
+    color: white;
+    margin-left: 10rem;
+    display: inline-block;
+    font-weight: bold;
+}
+.footer__main-list-contact-list {
+    font-weight: normal;
+    list-style: none;
+    display: inline;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+.footer__main-list-follow {
+    margin-left: 17rem;
+}
+.footer__main-list-follow-text {
+    text-align: left;
+}

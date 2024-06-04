@@ -556,11 +556,52 @@
     color: var(--star);
     margin-top: 2rem;
 }
-.container__page-content-review-list-sign {
+.container__page6-content-review-list-sign {
     margin-top: 2rem;
 }
-.container__page-content-review-list-job {
+.container__page6-content-review-list-job {
     margin-top: 0.5rem;
     margin-left: 0.5rem;
     font-size: 1.5rem;
+}
+.container__page6-buttons {
+    margin-left: 130rem;
+    margin-top: 10rem;
+    display: inline-block;
+}
+.container__page6-btnLeft, .container__page6-btnRight {
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+.container__page6-btnLeft {
+    background-color: black;
+}
+
+.container__page6-btnRight {
+    margin-left: 1.5rem;
+    background-color: var(--500);
+}
+
+.container__page6-btnLeft::after, .container__page6-btnRight::after {
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    border-top: 0.2rem solid white;
+    border-right: 0.2rem solid white;
+}
+
+.container__page6-btnLeft::after {
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+.container__page6-btnRight::after {
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(45deg);
 }
